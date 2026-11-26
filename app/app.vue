@@ -1,7 +1,7 @@
 <template>
 	<UApp>
-		<main class="p-6">
-			<h1 class="text-3xl font-semibold">Planoday</h1>
-		</main>
+		<NuxtLayout>
+			<NuxtPage />
+		</NuxtLayout>
 	</UApp>
 </template>

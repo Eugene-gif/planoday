@@ -3,3 +3,19 @@
 @import './theme.css';
 @import '@fontsource/roboto/400.css';
 @import '@fontsource/roboto/600.css';
+
+@layer components {
+	.section-heading {
+		font-size: 1.875rem;
+		font-weight: 600;
+		line-height: 1.15;
+		letter-spacing: -0.025em;
+		color: var(--ui-text-highlighted);
+	}
+
+	@media (width >= 48rem) {
+		.section-heading {
+			font-size: 2.5rem;
+		}
+	}
+}
