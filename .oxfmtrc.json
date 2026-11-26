@@ -1,0 +1,8 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "singleQuote": true,
+  "semi": true,
+  "bracketSpacing": true,
+  "vueIndentScriptAndStyle": true,
+  "ignorePatterns": [".nuxt/", ".output/", "package-lock.json"]
+}
